@@ -1,3 +1,11 @@
+.property-address {
+  z-index: 2;
+}
+
+.property-img {
+  z-index: 1;
+}
+
 .room-description {
   display: none;
 }
