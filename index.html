@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Find A Room</title>
     <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/foundation-icons/foundation-icons.css">
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
 
@@ -19,9 +20,9 @@
       </ul>
     </div>
 
-    <div class="row">
+    <div class="property row">
       <div class="large-12 columns">
-        <div class="large-4 small-4 columns">
+        <div class="property-address large-4 small-4 columns">
           <h3>My Property, London</h3>
           <h5>2 Riding House Street, W1W 7FA</h5>
         </div>
@@ -32,117 +33,30 @@
     </div>
 
     <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
-
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout ">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.callout element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-
-        <hr />
-
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <div class="input-group">
-                <input type="text" placeholder="small-9.columns" class="input-group-field" />
-                <span class="input-group-label">.com</span>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
+      <div class="large-8 small-6 columns">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ac risus maximus, posuere tellus vitae, dictum ipsum. In ut condimentum justo. Nam vehicula pulvinar augue, et fringilla est porttitor quis. Integer ac libero eleifend, suscipit metus scelerisque, vestibulum dolor. Nunc nec nisi in lectus volutpat sodales. Phasellus venenatis velit turpis, sit amet iaculis velit tincidunt a. Donec dolor enim, pharetra sit amet varius sit amet, lacinia sit amet lacus. Morbi non risus arcu. Integer tellus massa, faucibus a vehicula id, rhoncus eleifend quam.</p>
       </div>
-
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="medium success button">Success Button</a><br/>
-        <a href="#" class="medium alert button">Alert Button</a><br/>
-        <a href="#" class="medium secondary button">Secondary Button</a></p>
-        <div class="callout">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>
+      <div class="large-4 small-6 columns">
+        <div class="rating">
+          <i class="fi-star"></i> Rated average of 4.7 by 277 students
         </div>
+        <div class="total-beds">
+          <i class="fi-home"></i> 588 Total Beds
+        </div>
+        <a href="#" class="success button">Contact an expert</a>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="large-3 small-6 columns">
+        <h3>Room Types</h3>
+        <ul class="menu">
+          <li><a href="#">Deluxe</a>
+          <li><a href="#">Shared</a>
+          <li><a href="#">Animal Friendly</a>
+          <li><a href="#">Super Deluxe</a>
+          <li><a href="#">Another room type</a>
+        </ul>
       </div>
     </div>
 
