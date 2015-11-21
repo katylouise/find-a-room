@@ -1,0 +1,17 @@
+.room-description {
+  display: none;
+}
+
+.paw {
+  height: 85px;
+}
+
+.fi-paw {
+  font-size: 64pt;
+  margin-right: 10px;
+  vertical-align: top;
+}
+
+.facilities {
+  list-style-type: none;
+}
