@@ -6,8 +6,18 @@
   z-index: 1;
 }
 
+.rating, .total-beds {
+  margin-bottom: 10px;
+}
+
+.contact-button {
+  vertical-align: bottom;
+}
+
 .button {
   border-radius: 8px;
+  margin-top: 25px;
+  margin-bottom: 0;
 }
 
 .paw, .icon {
