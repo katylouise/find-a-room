@@ -35,7 +35,7 @@ $(document).ready(function() {
   $('.room-link').click(function() {
     var room = $(this).attr('class').split(' ')[0];
     $('.room-description').show();
-    $('.room-description').load("rooms/animal-friendly.html", function() {
+    $('.room-description').load("rooms/" + room + ".html", function() {
       displayFriends(room);
     });
   });
