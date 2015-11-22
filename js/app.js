@@ -41,9 +41,8 @@ $(document).ready(function() {
   });
 
   function displayFriends(room) {
-    var friendsToDisplay = friendsObj[room]["friends"];
-    //need to sort names alphabetically
-
+    var friendsToDisplay = sortNames(friendsObj[room]["friends"]);
+    console.log(friendsToDisplay);
     if (friendsToDisplay.length == 1) {
       $('.room-description .friend-info').text(friendsToDisplay[0] + ' has stayed here');
     }
@@ -57,5 +56,19 @@ $(document).ready(function() {
       var numFriendsLeft = friendsToDisplay.length - 2;
       $('.room-description .friend-info').text(friendsToDisplay[0] + ', ' + friendsToDisplay[1] + ', and ' + numFriendsLeft + ' other friends have stayed here');
     }
+  }
+
+  function sortNames(arr) {
+    return arr.sort(function(a, b) {
+      var namesA = a.split(" ");
+      var namesB = b.split(" ");
+      if (namesA[1] == namesB[1]) {
+        if (namesA[0] < namesB[0]) return -1;
+        if (namesA[0] > namesB[0]) return 1;
+      }
+
+      if (namesA[1] < namesB[1]) return -1;
+      if (namesA[1] > namesB[1]) return 1;
+    });
   }
 });
