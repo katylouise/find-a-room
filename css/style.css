@@ -6,6 +6,10 @@
   z-index: 1;
 }
 
+.property, .property-description {
+  margin-bottom: 30px;
+}
+
 .rating, .total-beds {
   margin-bottom: 10px;
 }
