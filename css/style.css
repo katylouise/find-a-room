@@ -10,12 +10,13 @@
   border-radius: 8px;
 }
 
-.paw {
-  height: 85px;
+.paw, .icon {
+  height: 65px;
+  padding: 0;
 }
 
-.fi-paw, .fi-sheriff-badge, .fi-torsos {
-  font-size: 64pt;
+.fi-paw, .fi-sheriff-badge, .fi-torsos, .fi-crown, .fi-key {
+  font-size: 60pt;
   margin-right: 10px;
   vertical-align: top;
 }

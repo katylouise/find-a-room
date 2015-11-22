@@ -42,7 +42,6 @@ $(document).ready(function() {
 
   function displayFriends(room) {
     var friendsToDisplay = sortNames(friendsObj[room]["friends"]);
-    console.log(friendsToDisplay);
     if (friendsToDisplay.length == 1) {
       $('.room-description .friend-info').text(friendsToDisplay[0] + ' has stayed here');
     }
