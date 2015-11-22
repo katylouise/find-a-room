@@ -1,0 +1,23 @@
+{
+  "name": "studentdotcom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.8.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katylouise/find-a-room.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katylouise/find-a-room/issues"
+  },
+  "homepage": "https://github.com/katylouise/find-a-room#readme"
+}

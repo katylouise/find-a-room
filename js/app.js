@@ -33,8 +33,9 @@ var friendsObj = {
 $(document).foundation();
 $(document).ready(function() {
   $('.room-link').click(function() {
-    $('.room-description').show();
     var room = $(this).attr('class').split(' ')[0];
+    $('.room-description').load("rooms/animal-friendly.html");
+    $('.room-description').show();
     displayFriends(room);
   });
 
