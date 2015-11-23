@@ -57,6 +57,14 @@
   z-index: 2;
 }
 
+@media only screen and (max-width: 40em) {
+  .property-address {
+    background-image: url('../img/castle.jpg');
+    background-size: 100% 300px;
+    color: #ffffff;
+  }
+}
+
 .property-img-container {
   width: 100%;
   background-color: #E1EFF6;
