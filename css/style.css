@@ -36,9 +36,12 @@
   margin-bottom: 10px;
 }
 
+.contact-button {
+  margin-top: -60px;
+}
+
 .button {
   border-radius: 8px;
-  margin-top: 25px;
   margin-bottom: 0;
 }
 
