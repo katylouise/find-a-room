@@ -46,8 +46,12 @@
   margin-bottom: 0;
 }
 
-.submenu {
-  width: 300px;
+.top-bar, .top-bar ul {
+  background-color: #ffffff;
+}
+
+.top-bar .dropdown.menu .has-submenu {
+  width: 400px;
 }
 
 .room-link {
