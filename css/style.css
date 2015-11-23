@@ -19,6 +19,15 @@
    max-width: initial;
 }
 
+.property-address {
+  height: 300px;
+  text-align: center;
+}
+
+.property-address h3 {
+  margin-top: 100px;
+}
+
 .property, .property-description {
   margin-bottom: 30px;
 }
@@ -35,6 +44,14 @@
   border-radius: 8px;
   margin-top: 25px;
   margin-bottom: 0;
+}
+
+.room-link {
+  font-size: 18px;
+}
+
+.room-link:hover, .room-selected {
+  background-color: #E1EFF6;
 }
 
 .paw, .icon {

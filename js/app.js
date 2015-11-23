@@ -33,11 +33,13 @@ var friendsObj = {
 $(document).foundation();
 $(document).ready(function() {
   $('.room-link').click(function() {
+    $('.room-link').removeClass('room-selected');
     var room = $(this).attr('class').split(' ')[0];
     $('.room-description').show();
     $('.room-description').load("rooms/" + room + ".html", function() {
       displayFriends(room);
     });
+    $(this).addClass('room-selected');
   });
 
   function displayFriends(room) {
