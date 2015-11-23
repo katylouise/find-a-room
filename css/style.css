@@ -124,7 +124,7 @@
   background-color: #E1EFF6;
 }
 
-.paw, .icon {
+.icon {
   height: 65px;
   padding: 0;
 }
@@ -135,8 +135,15 @@
   vertical-align: top;
 }
 
+.friends {
+  margin: 30px 0;
+}
+
 .facilities {
   list-style-type: none;
 }
 
+.facilities li {
+  padding: 10px 0;
+}
 
