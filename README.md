@@ -1,6 +1,6 @@
 # Find A Room
 
-A mock up of an application for student's to find suitable accommodation.
+A mock up of web page for students to find suitable accommodation.
 
 ## Getting Started
 

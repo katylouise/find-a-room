@@ -108,6 +108,10 @@
   margin-bottom: 0;
 }
 
+.room-choices {
+  margin-bottom: 40px;
+}
+
 .top-bar, .top-bar ul {
   background-color: #ffffff;
 }
