@@ -15,4 +15,4 @@ Go to localhost:8080
 
 ## Technology Choices
 
-I used Foundation for the CSS scaffolding and to help build the responsive elements of the page.  I added a simple server to enable the loading of the different html files for each of the rooms.  I used JQuery to for DOM interactions.
+I used Foundation for the CSS scaffolding and to help build the responsive elements of the page.  I added a simple server to enable the loading of the different html files for each of the rooms.  I used JQuery for the DOM interactions necessary.
