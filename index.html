@@ -52,15 +52,31 @@
     <div class="row">
       <div class="large-3 small-12 columns">
         <h3>Room Types</h3>
-        <ul class="menu callout vertical small-dropdown">
-          <li><a class="deluxe room-link" href="#">Deluxe</a>
-          <li><a class="shared room-link" href="#">Shared</a>
-          <li><a class="animal-friendly room-link" href="#">Animal Friendly</a>
-          <li><a class="super-deluxe room-link" href="#">Super Deluxe</a>
-          <li><a class="another room-link" href="#">Another room type</a>
+        <ul class="hide-for-small-only vertical menu callout">
+          <li><a class="deluxe room-link" href="#">Deluxe Room</a></li>
+          <li><a class="shared room-link" href="#">Shared Room</a></li>
+          <li><a class="animal-friendly room-link" href="#">Animal Friendly Room</a></li>
+          <li><a class="super-deluxe room-link" href="#">Super Deluxe Room</a></li>
+          <li><a class="another room-link" href="#">Another room type</a></li>
         </ul>
       </div>
-      <div class="room-description large-9 small-12 columns"></div>
+      <div class="show-for-small-only top-bar">
+        <ul class="dropdown menu" data-dropdown-menu>
+          <li class="has-submenu">
+            <a href="#">Select a room</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a class="deluxe room-link" href="#">Deluxe Room</a></li>
+              <li><a class="shared room-link" href="#">Shared Room</a></li>
+              <li><a class="animal-friendly room-link" href="#">Animal Friendly Room</a></li>
+              <li><a class="super-deluxe room-link" href="#">Super Deluxe Room</a></li>
+              <li><a class="another room-link" href="#">Another room type</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="room-description large-9 small-12 columns"></div>
     </div>
 
     <script src="js/vendor/jquery.min.js"></script>

@@ -46,6 +46,10 @@
   margin-bottom: 0;
 }
 
+.submenu {
+  width: 300px;
+}
+
 .room-link {
   font-size: 18px;
 }

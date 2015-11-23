@@ -30,8 +30,9 @@ var friendsObj = {
   }
 }
 
-$(document).foundation();
 $(document).ready(function() {
+  $(document).foundation();
+
   $('.room-link').click(function() {
     $('.room-link').removeClass('room-selected');
     var room = $(this).attr('class').split(' ')[0];
