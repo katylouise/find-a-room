@@ -2,6 +2,57 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.path {
+  list-style: none;
+  overflow: hidden;
+  margin-left: -40px;
+}
+
+.path li {
+  float: left;
+}
+
+.path li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0 10px 65px;
+  background: #00A6A6;
+  position: relative;
+  display: block;
+  float: left;
+}
+
+.path li a:after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid #00A6A6;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  left: 100%;
+  z-index: 2;
+}
+
+.path li a:before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-bottom: 50px solid transparent;
+  border-left: 30px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 1;
+}
+
 .property-address {
   z-index: 2;
 }
