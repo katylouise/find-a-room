@@ -113,7 +113,8 @@
 }
 
 .top-bar .dropdown.menu .has-submenu {
-  width: 400px;
+  padding-left: 5px;
+  width: 375px;
 }
 
 .room-link {
